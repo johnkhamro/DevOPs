@@ -1,0 +1,3 @@
+#!/bin/bash
+## List of all active OS processes sorted by PID and save to a file
+ps aux --sort pid > processes.txt

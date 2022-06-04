@@ -1,0 +1,57 @@
+apache    2080  0.0  0.0 330360  7180 ?        S    Apr28   0:00 php-fpm: pool www
+apache    2268  0.0  0.2 336852 16524 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2307  0.0  0.2 337004 16584 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2322  0.0  0.2 336852 16500 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2468  0.0  0.2 336988 16516 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2546  0.0  0.2 336852 16588 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2559  0.0  0.2 336852 16504 ?        S    Apr28   0:04 php-fpm: pool zabbix
+apache    2610  0.0  0.2 336864 16496 ?        S    Apr28   0:04 php-fpm: pool zabbix
+root      2883  0.0  0.0      0     0 ?        S    11:01   0:00 [kworker/1:2]
+root      2884  0.0  0.0      0     0 ?        S    11:01   0:00 [kworker/2:2]
+root      5849  0.0  0.0      0     0 ?        S    12:01   0:00 [kworker/1:0]
+root      6033  0.0  0.0      0     0 ?        S    May26   0:09 [kworker/u8:0]
+postgres  6322  0.0  0.2 397496 17476 ?        Ss   May04   0:48 /usr/pgsql-12/bin/postmaster -D /var/lib/pgsql/12/data/
+postgres  6325  0.0  0.0 249736  2096 ?        Ss   May04   0:00 postgres: logger
+postgres  6327  0.0  0.0 397612  3788 ?        Ss   May04   0:02 postgres: checkpointer
+postgres  6328  0.0  0.0 397628  3360 ?        Ss   May04   0:42 postgres: background writer
+postgres  6329  0.0  0.0 397496  6260 ?        Ss   May04   0:42 postgres: walwriter
+postgres  6330  0.0  0.0 398048  3324 ?        Ss   May04   0:31 postgres: autovacuum launcher
+postgres  6331  0.0  0.0 251992  2240 ?        Ss   May04   0:53 postgres: stats collector
+postgres  6332  0.0  0.0 398052  2816 ?        Ss   May04   0:02 postgres: logical replication launcher
+mysql     6348  0.0  0.0 113416  1612 ?        Ss   Apr29   0:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+postfix   6485  0.0  0.0  89892  4096 ?        S    12:13   0:00 pickup -l -t unix -u
+mysql     6549  0.0  1.1 1121932 93312 ?       Sl   Apr29  35:50 /usr/libexec/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mariadb/mariadb.log --pid-file=/var/run/mariadb/mariadb.pid --socket=/var/lib/mysql/mysql.sock
+root      7510  0.0  0.0      0     0 ?        S    12:34   0:00 [kworker/3:0]
+root      8060  0.0  0.0 162132  6780 ?        Ss   12:42   0:00 sshd: root@pts/0
+root      8065  0.0  0.0 161788  6464 ?        Ss   12:42   0:00 sshd: root@notty
+root      8067  0.0  0.0 115684  2136 pts/0    Ss   12:42   0:00 -bash
+root      8082  0.0  0.0  72332  2896 ?        Ss   12:42   0:00 /usr/libexec/openssh/sftp-server
+root      8173  0.0  0.0      0     0 ?        S    12:44   0:00 [kworker/3:1]
+root      8478  0.0  0.0      0     0 ?        S    12:50   0:00 [kworker/3:2]
+root      8580  0.0  0.0 113284  1192 pts/0    S+   12:52   0:00 /bin/bash ./myscript
+root      8581  0.0  0.0 155756  2220 pts/0    R+   12:52   0:00 ps aux --sort pid
+postgres 13379  0.0  0.0 398216  3764 ?        Ss   May05   0:33 postgres: walsender replicator 10.7.11.34(57674) streaming 0/3000AE8
+root     15524  0.0  0.0      0     0 ?        S    Jun03   0:03 [kworker/2:1]
+apache   17635  0.0  0.2 336852 16460 ?        S    Apr29   0:03 php-fpm: pool zabbix
+apache   22340  0.0  0.2 336852 16372 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22399  0.0  0.2 336852 16372 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22476  0.0  0.2 336720 16368 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22489  0.0  0.2 336720 16348 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22492  0.0  0.2 336720 16320 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22504  0.0  0.2 336720 16272 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22529  0.0  0.2 336720 16344 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22555  0.0  0.2 336720 16368 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22563  0.0  0.2 336720 16360 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22564  0.0  0.2 336720 16352 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22572  0.0  0.2 336720 16280 ?        S    Apr29   0:00 php-fpm: pool zabbix
+apache   22679  0.0  0.2 336720 16368 ?        S    Apr29   0:00 php-fpm: pool zabbix
+root     23280  0.0  0.0      0     0 ?        S    May26   0:00 [kworker/u8:1]
+root     25233  0.0  0.0      0     0 ?        S    Jun03   0:02 [kworker/0:0]
+root     26621  0.0  0.4 363092 33956 ?        Ssl  Apr29   0:07 /usr/bin/python2 -Es /usr/sbin/firewalld --nofork --nopid
+root     27836  0.0  0.0 230516  5296 ?        Ss   Apr29   3:12 /usr/sbin/httpd -DFOREGROUND
+root     29146  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/0:1]
+apache   29864  0.0  0.0 230516  2992 ?        S    May29   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   29866  0.0  0.0 230516  2992 ?        S    May29   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   29868  0.0  0.0 230516  2992 ?        S    May29   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   29869  0.0  0.0 230516  2992 ?        S    May29   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   29870  0.0  0.0 230516  2992 ?        S    May29   0:00 /usr/sbin/httpd -DFOREGROUND
